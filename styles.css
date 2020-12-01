@@ -1,0 +1,131 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+  html{
+    height: 720px;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  body{
+    min-height: 100%;
+    text-align: center;
+    background-color: #19A1AE;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: left -204px  top -670px, right -204px bottom -670px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 978px, 978px;
+  }
+
+  #card {
+    
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 173px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+
+  #firstBlock {
+      background-image: url(images/bg-pattern-card.svg);
+      height: 148px;
+      position: relative;
+  }
+
+  #firstBlock img {
+      position: absolute;
+      bottom: -48px;
+      left: 122px;
+      border-radius: 50%;
+      width: 96px;
+      border: 5px solid #FFFFFF;
+  }
+
+  #secondBlock {
+      background-color: white;
+      border-bottom: #E8E9EC solid 1px;
+  }
+
+  #secondBlock h1 {
+      margin-top: 72px;
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 18px;
+      text-align: center;
+      color: #2E3349;
+  }
+
+  #secondBlock span {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #6B7082;
+    margin-left: 8px;
+  }
+
+  #secondBlock p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #6B7082;
+    margin-top: 0;
+    margin-bottom: 28px;
+  }
+
+  #lastBlock {
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  #lastBlock h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2E3349;
+    margin-top: 24px;
+    margin-bottom: 9px;
+  }
+
+  #lastBlock p {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    margin-top: 0;
+    margin-bottom: 27px;
+  }
+
+  .attribution {
+      position: fixed;
+      bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+  }
+
+  @media only screen and (max-width: 375px) {
+
+    body{
+        min-height: 100%;
+        text-align: center;
+        background-color:  #19A1AE;
+        background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+        background-position: left -350px  top -300px, right -350px bottom -300px;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 622px, 622px;
+      }
+
+  }
